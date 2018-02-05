@@ -12,11 +12,11 @@ The following map shoes crimes occuring in the 4 cities.
 After zooming into Washington D.C, we can get a general idea where the
 crimes are happening
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/Crimes-DC.png)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/Crimes-DC.PNG)
 
 After further zooming in, we can see the crimes at street level.
 
-![](https://github.com/sachalrana/Criminology/blob/master/Crimes-DC_Detailed.png)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/Crimes-DC_Detailed.PNG)
 
 Quite a few crimes are being committed in the vicinity of the White
 House. Surprising\!
