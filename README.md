@@ -7,7 +7,7 @@
 
 The following map shoes crimes occuring in the 4 cities.
 
-![](Criminology/viz/FullMap.PNG)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/FullMap.PNG)
 
 After zooming into Washington D.C, we can get a general idea where the
 crimes are happening
