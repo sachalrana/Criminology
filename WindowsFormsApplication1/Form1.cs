@@ -533,17 +533,7 @@ namespace WindowsFormsApplication1
                 }
             }
 
-         /*   foreach (var item in gridview_analysis.Columns)
-            {
-                DataGridViewTextBoxColumn TBC = item as DataGridViewTextBoxColumn;
-                comboBoxXAxis.Items.Add(TBC.Name);
-                comboBoxYAxis.Items.Add(TBC.Name);
-            }
-
-            comboBoxXAxis.SelectedIndex = 0;
-            comboBoxYAxis.SelectedIndex = comboBoxYAxis.Items.Count - 1;
-            */
-            //toolStripProgressBar1.Visible = false;
+         
         }
 
         public void MakeQuery()
