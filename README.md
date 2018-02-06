@@ -1,8 +1,3 @@
----
-title: "Criminology"
-
----
-
 ## Visualizations
 
 ### Overview - Crimes in Los Angeles, Chicago, Washington D.C and New York City
@@ -13,22 +8,21 @@ We can use the analysis to better inform the people living/visiting these areas 
 
 The following map highlights the crimes occuring in the 4 cities. 
 
-![](viz/FullMap.png)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/FullMap.PNG)
 
 After zooming into Washington D.C, we can get a general idea where the crimes are happening
 
-![](viz/Crimes-DC.png)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/Crimes-DC.png)
 
 After further zooming in, we can see the crimes at street level. 
 
-![](viz/Crimes-DC_Detailed.png)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/Crimes-DC_Detailed.png)
 
 Quite a few crimes are being committed in the vicinity of the White House. Surprising!
 
-
 ### Drilling
 The following map shoes what type of crimes are occuring at a certain area/location
-
+![](https://github.com/sachalrana/Criminology/blob/master/viz/Crimes-DC_Drilled.png)
 
 ## Including Plots
 
