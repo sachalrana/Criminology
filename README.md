@@ -24,13 +24,5 @@ Quite a few crimes are being committed in the vicinity of the White House. Surpr
 The following map shoes what type of crimes are occuring at a certain area/location
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/Crimes-DC_Drilled.PNG)
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### Further Analysis
 
