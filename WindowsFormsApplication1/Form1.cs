@@ -276,7 +276,7 @@ namespace WindowsFormsApplication1
             {
                 switch (selecteditem)
                 {
-                    
+
                     case "City":
                         value = "CrimeCity.City_Name";
                         break;
@@ -295,7 +295,7 @@ namespace WindowsFormsApplication1
                     case "Day of Week":
                         value = "Dim_CrimeDate.CrimeDate_WeekDay";
                         break;
-                   
+
                     case "Day":
                         value = "Dim_CrimeDate.CrimeDate_Day";
                         break;
@@ -460,7 +460,7 @@ namespace WindowsFormsApplication1
         {
             if (chkbx_Count.Checked == true)
             {
-               
+
                 chkbx_Count_Distinct.Enabled = false;
                 cbx_Count.Enabled = true;
 
@@ -470,7 +470,7 @@ namespace WindowsFormsApplication1
 
             if (chkbx_Count.Checked == false)
             {
-               
+
                 chkbx_Count_Distinct.Enabled = true;
                 cbx_Count.Enabled = false;
                 cbx_Count.SelectedItem = null;
@@ -484,7 +484,7 @@ namespace WindowsFormsApplication1
         {
             if (chkbx_Count_Distinct.Checked == true)
             {
-                
+
                 chkbx_Count.Enabled = false;
                 cbx_Count_Distinct.Enabled = true;
 
@@ -499,18 +499,13 @@ namespace WindowsFormsApplication1
         }
         private void btnMakeQuery_Click(object sender, EventArgs e)
         {
-            //MakeAnalysis();
+
             MakeQuery();
         }
 
         private void btnExecuteQuery_Click(object sender, EventArgs e)
         {
-            //toolStripProgressBar1.Visible = true;
 
-
-
-            //statusmsg.Text = "Executing Query";
-            //statusStrip1.Refresh();
             string query = txtQuery_Analysis.Text;
 
             DatabaseHelper db = new DatabaseHelper();
@@ -520,11 +515,10 @@ namespace WindowsFormsApplication1
             ds = db.ExecuteDataSet(query, CommandType.Text);
 
 
-            //statusmsg.Text = "Ready";
-            //statusStrip1.Refresh();
+
 
             gridview_analysis.DataSource = ds.Tables[0];
-           // toolStripStatusLabel1.Text = "Rows = " + ds.Tables[0].Rows.Count.ToString();
+
             if (null != gridview_analysis)
             {
                 foreach (DataGridViewRow r in gridview_analysis.Rows)
@@ -533,7 +527,7 @@ namespace WindowsFormsApplication1
                 }
             }
 
-         
+
         }
 
         public void MakeQuery()
@@ -563,7 +557,7 @@ namespace WindowsFormsApplication1
             {
                 alias = GetAlias(correct);
                 string col = correct;
-               // if (correct == "RYear") { col = "Year"; }
+
                 aggregate = "Count(" + alias + "." + col + ")";
 
             }
@@ -573,32 +567,32 @@ namespace WindowsFormsApplication1
                 alias = GetAlias(correct);
                 string col = correct;
 
-             //   if (correct == "RYear") { col = "Year"; }
+
                 aggregate = "Count (distinct " + alias + "." + col + ")";
 
             }
-           
+
             bool isMultipleTable = false;
-            // Table
+
             if (Table.Distinct().ToList().Count == 1 && aggregate == "")
             {
                 tables = string.Join(",", Table.Distinct().ToArray());
             }
             else
             {
-                
-                    tables = "  AIT581.dbo.Dim_CrimeCity CrimeCity, AIT581.dbo.Dim_CrimeLocation CrimeLocation, AIT581.dbo.Dim_CrimeDate Dim_CrimeDate," +
-                             "AIT581.dbo.Dim_CrimeLocCoordinates CrimeCoordinates, AIT581.dbo.Dim_CrimeTime Dim_CrimeTime , AIT581.dbo.Dim_CrimeType CrimeType, " +
-                             "AIT581.dbo.Crime_FactTable CrimeFactTable ";
 
-                    where = "WHERE    CrimeFactTable.Dim_CrimeCity_ID			 = CrimeCity.Dim_City_ID        " +
-                            "   and CrimeFactTable.Dim_CrimeLocation_ID  = CrimeLocation.Dim_CrimeLocation_ID	" +
-                            "	and CrimeFactTable.Dim_CrimeDate_ID  = Dim_CrimeDate.Dim_CrimeDate_ID	" +
-                            "	and CrimeFactTable.Dim_CrimeTime_ID  = Dim_CrimeTime.Dim_CrimeTime_ID	" +
-                            "	and CrimeFactTable.Dim_CrimeLocCoordinates_ID = CrimeCoordinates.Dim_CrimeLocCoordinates_ID	" +
-                            "	and CrimeFactTable.Dim_CrimeType_ID	 = CrimeType.Dim_CrimeType_ID	";
-                    isMultipleTable = true;
-              
+                tables = "  AIT581.dbo.Dim_CrimeCity CrimeCity, AIT581.dbo.Dim_CrimeLocation CrimeLocation, AIT581.dbo.Dim_CrimeDate Dim_CrimeDate," +
+                         "AIT581.dbo.Dim_CrimeLocCoordinates CrimeCoordinates, AIT581.dbo.Dim_CrimeTime Dim_CrimeTime , AIT581.dbo.Dim_CrimeType CrimeType, " +
+                         "AIT581.dbo.Crime_FactTable CrimeFactTable ";
+
+                where = "WHERE    CrimeFactTable.Dim_CrimeCity_ID			 = CrimeCity.Dim_City_ID        " +
+                        "   and CrimeFactTable.Dim_CrimeLocation_ID  = CrimeLocation.Dim_CrimeLocation_ID	" +
+                        "	and CrimeFactTable.Dim_CrimeDate_ID  = Dim_CrimeDate.Dim_CrimeDate_ID	" +
+                        "	and CrimeFactTable.Dim_CrimeTime_ID  = Dim_CrimeTime.Dim_CrimeTime_ID	" +
+                        "	and CrimeFactTable.Dim_CrimeLocCoordinates_ID = CrimeCoordinates.Dim_CrimeLocCoordinates_ID	" +
+                        "	and CrimeFactTable.Dim_CrimeType_ID	 = CrimeType.Dim_CrimeType_ID	";
+                isMultipleTable = true;
+
             }
 
             if (listBoxWhere.Items.Count > 0)
@@ -693,10 +687,7 @@ namespace WindowsFormsApplication1
                 {
                     value = " '" + value + "' ";
                 }
-                //if (listBoxWhere.Items.Count > 0)
-                //{
-                //    attribute = " and " + attribute;
-                //}
+
                 listBoxWhere.Items.Add(attribute + condition + value);
                 comboBoxWhere.Text = "";
                 comboBoxCondition.Text = "";
@@ -790,41 +781,6 @@ namespace WindowsFormsApplication1
 
         }
 
-        /* private void btnMakeChart_Click(object sender, EventArgs e)
-           {
 
-               chart1.Visible = true;
-
-               Series series = new Series();
-               Series series2 = new Series();
-               this.chart1.Series.Clear();
-               // Add series.
-               for (int i = 1; i < ds.Tables[0].Columns.Count; i++)
-               {
-                   // Add series. 
-                   //  if (i == ds.Tables[0].Columns.Count-1)
-                   {
-                       series = this.chart1.Series.Add(ds.Tables[0].Columns[i].ToString());
-                   }
-
-               }
-
-               int x = comboBoxXAxis.SelectedIndex;
-               int y = comboBoxYAxis.SelectedIndex;
-
-               for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
-               {
-                   double xval = 0.0;
-                   Double.TryParse(ds.Tables[0].Rows[i][x].ToString(), out xval);
-
-                   series.Points.Add(xval);
-
-                   //series.Points[i].AxisLabel = ds.Tables[0].Rows[i][ds.Tables[0].Columns.Count - 1].ToString();
-
-                   series.Points[i].AxisLabel = ds.Tables[0].Rows[i][y].ToString();
-
-                   series.Points[i].Color = series.Color;
-               }
-           } */
     }
 }
