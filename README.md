@@ -38,25 +38,25 @@ Most Common Crimes
 
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesByDay.png)
 
-Crimes by Time Of the Day
+#### Crimes by Time Of the Day
 
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesByTOD.png)
 
 
-Theft,Homicide and Kidnapping by Time of the Day
+#### Theft,Homicide and Kidnapping by Time of the Day
 
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/THKtod.png)
 
 
-Crimes by Area of each City
+#### Crimes by Area of each City
 
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimeByAreas.png)
 
-Types of Thefts
+#### Types of Thefts
 
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/TheftSubtypes.png)
 
-Burglary Crimes in each City
+#### Burglary Crimes in each City
 
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/BurglaryTopCity.png)
 
