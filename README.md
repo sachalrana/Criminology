@@ -34,7 +34,7 @@ Most Common Crimes
 
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/MostCommonCrimes.png)
 
-Crimes by Day of the Week in each City
+#### Crimes by Day of the Week in each City
 
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesByDay.png)
 
@@ -64,11 +64,11 @@ Burglary Crimes in each City
 ### Query Engine
 The Query Engine enables the user to get results on the fly without writing SQL Queries. 
 
-####Splash Screen
+#### Splash Screen
 
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/LogoWithNames.jpg)
 
-####Query Engine
+#### Query Engine
 
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/QueryEngine.PNG)
 
