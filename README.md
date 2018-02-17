@@ -54,7 +54,7 @@ Crimes by Area of each City
 
 Types of Thefts
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/TheftSubTypes.png)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/TheftSubtypes.png)
 
 Burglary Crimes in each City
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/BurglaryTopCity.png)
