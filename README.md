@@ -36,11 +36,11 @@ Most Common Crimes
 
 Crimes by Day of the Week in each City
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesbyDay.png)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesByDay.png)
 
 Crimes by Time Of the Day
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/Crime_TOD.png)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesByTOD.png)
 
 
 Theft,Homicide and Kidnapping by Time of the Day
@@ -50,7 +50,7 @@ Theft,Homicide and Kidnapping by Time of the Day
 
 Crimes by Area of each City
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimebyAreas.png)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimeByAreas.png)
 
 Types of Thefts
 
