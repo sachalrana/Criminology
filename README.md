@@ -28,36 +28,36 @@ The following map shoes what type of crimes are occuring at a certain area/locat
 ### Further Analysis
 Crime Rate Over the Years in each City
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/YearlyCrimes.PNG)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/YearlyCrimes.png)
 
 Most Common Crimes
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/MostCommonCrimes.PNG)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/MostCommonCrimes.png)
 
 Crimes by Day of the Week in each City
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesbyDay.PNG)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesbyDay.png)
 
 Crimes by Time Of the Day
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/Crime_TOD.PNG)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/Crime_TOD.png)
 
 
 Theft,Homicide and Kidnapping by Time of the Day
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/THKtod.PNG)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/THKtod.png)
 
 
 Crimes by Area of each City
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimebyAreas.PNG)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimebyAreas.png)
 
 Types of Thefts
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/TheftSubTypes.PNG)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/TheftSubTypes.png)
 
 Burglary Crimes in each City
-![](https://github.com/sachalrana/Criminology/blob/master/viz/BurglaryTopCity.PNG)
+![](https://github.com/sachalrana/Criminology/blob/master/viz/BurglaryTopCity.png)
 
 
 
