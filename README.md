@@ -22,7 +22,41 @@ Quite a few crimes are being committed in the vicinity of the White House. Surpr
 
 ### Drilling
 The following map shoes what type of crimes are occuring at a certain area/location
+
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/Crimes-DC_Drilled.PNG)
 
 ### Further Analysis
+Crime Rate Over the Years in each City
+
+![](https://github.com/sachalrana/Criminology/blob/master/viz/YearlyCrimes.PNG)
+
+Most Common Crimes
+
+![](https://github.com/sachalrana/Criminology/blob/master/viz/MostCommonCrimes.PNG)
+
+Crimes by Day of the Week in each City
+
+![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesbyDay.PNG)
+
+Crimes by Time Of the Day
+
+![](https://github.com/sachalrana/Criminology/blob/master/viz/Crime_TOD.PNG)
+
+
+Theft,Homicide and Kidnapping by Time of the Day
+
+![](https://github.com/sachalrana/Criminology/blob/master/viz/THKtod.PNG)
+
+
+Crimes by Area of each City
+
+![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimebyAreas.PNG)
+
+Types of Thefts
+
+![](https://github.com/sachalrana/Criminology/blob/master/viz/TheftSubTypes.PNG)
+
+Burglary Crimes in each City
+![](https://github.com/sachalrana/Criminology/blob/master/viz/BurglaryTopCity.PNG)
+
 
