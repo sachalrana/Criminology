@@ -61,4 +61,15 @@ Burglary Crimes in each City
 ![](https://github.com/sachalrana/Criminology/blob/master/viz/BurglaryTopCity.png)
 
 
+### Query Engine
+The Query Engine enables the user to get results on the fly without writing SQL Queries. 
+
+####Splash Screen
+
+![](https://github.com/sachalrana/Criminology/blob/master/viz/LogoWithNames.jpg)
+
+####Query Engine
+
+![](https://github.com/sachalrana/Criminology/blob/master/viz/QueryEngine.PNG)
+
 
