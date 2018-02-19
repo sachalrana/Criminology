@@ -8,11 +8,11 @@ We can use the analysis to better inform the people living/visiting these areas 
 
 The following map highlights the crimes occuring in the 4 cities. 
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/FullMap.PNG)
+![](/viz/FullMap.PNG)
 
 After zooming into Washington D.C, we can get a general idea where the crimes are happening
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/Crimes-DC.PNG)
+![](/viz/Crimes-DC.PNG)
 
 After further zooming in, we can see the crimes at street level. 
 
