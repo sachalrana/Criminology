@@ -21,36 +21,37 @@ After further zooming in, we can see the crimes at street level.
 Quite a few crimes are being committed in the vicinity of the White House. Surprising!
 
 ### Map Visualization Live Demo
-Click on the image to view the video.
+Click on the image to view the video
+
 [![CriminologyPowerBI](http://img.youtube.com/vi/4qBiBON2DwY/0.jpg)](http://www.youtube.com/watch?v=4qBiBON2DwY "Map Visualization")
 
 
 ### Drilling
 The following map shoes what type of crimes are occuring at a certain area/location
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/Crimes-DC_Drilled.PNG)
+![](/viz/Crimes-DC_Drilled.PNG)
 
 ### Further Analysis
 Crime Rate Over the Years in each City
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/YearlyCrimes.png)
+![](/viz/YearlyCrimes.png)
 
 Most Common Crimes
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/MostCommonCrimes.png)
+![](/viz/MostCommonCrimes.png)
 
 #### Crimes by Day of the Week in each City
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesByDay.png)
+![](/viz/CrimesByDay.png)
 
 #### Crimes by Time Of the Day
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimesByTOD.png)
+![](/viz/CrimesByTOD.png)
 
 
 #### Theft,Homicide and Kidnapping by Time of the Day
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/THKtod.png)
+![](/viz/THKtod.png)
 
 
 #### Crimes by Area of each City
@@ -59,11 +60,11 @@ Most Common Crimes
 
 #### Types of Thefts
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/TheftSubtypes.png)
+![](/viz/TheftSubtypes.png)
 
 #### Burglary Crimes in each City
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/BurglaryTopCity.png)
+![](/viz/BurglaryTopCity.png)
 
 
 ### Query Engine
@@ -71,10 +72,10 @@ The Query Engine enables the user to get results on the fly without writing SQL 
 
 #### Splash Screen
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/LogoWithNames.jpg)
+![](/viz/LogoWithNames.jpg)
 
 #### Query Engine
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/QueryEngine.PNG)
+![](/viz/QueryEngine.PNG)
 
 
