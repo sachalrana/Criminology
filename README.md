@@ -50,7 +50,7 @@ Most Common Crimes
 
 #### Crimes by Area of each City
 
-![](https://github.com/sachalrana/Criminology/blob/master/viz/CrimeByAreas.png)
+![](/viz/CrimeByAreas.png)
 
 #### Types of Thefts
 
