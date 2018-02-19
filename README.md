@@ -23,7 +23,7 @@ Quite a few crimes are being committed in the vicinity of the White House. Surpr
 ### Map Visualization Live Demo
 Click on the image to view the video
 
-[![CriminologyPowerBI](http://img.youtube.com/vi/4qBiBON2DwY/0.jpg)](http://www.youtube.com/watch?v=4qBiBON2DwY "Map Visualization")
+[![MapVizPowerBI](http://img.youtube.com/vi/4qBiBON2DwY/0.jpg)](http://www.youtube.com/watch?v=4qBiBON2DwY "Map Visualization Power BI Demo")
 
 
 ### Drilling
