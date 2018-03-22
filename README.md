@@ -20,12 +20,6 @@ After further zooming in, we can see the crimes at street level.
 
 Quite a few crimes are being committed in the vicinity of the White House. Surprising!
 
-### Map Visualization Live Demo
-Click on the image to view the video
-
-[![MapVizPowerBI](http://img.youtube.com/vi/4qBiBON2DwY/0.jpg)](http://www.youtube.com/watch?v=4qBiBON2DwY "Map Visualization Power BI Demo")
-
-
 ### Drilling
 The following map shoes what type of crimes are occuring at a certain area/location
 
