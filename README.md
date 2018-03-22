@@ -21,7 +21,7 @@ After further zooming in, we can see the crimes at street level.
 Quite a few crimes are being committed in the vicinity of the White House. Surprising!
 
 ### Video Demo
-[![VidDemo](/viz/FullMap.PNG)](https://www.youtube.com/watch?v=4qBiBON2DwY)
+[![VidDemo](/viz/cap1.PNG)](https://www.youtube.com/watch?v=4qBiBON2DwY)
 
 
 ### Drilling
