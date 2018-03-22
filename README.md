@@ -20,6 +20,10 @@ After further zooming in, we can see the crimes at street level.
 
 Quite a few crimes are being committed in the vicinity of the White House. Surprising!
 
+### Video Demo
+[![VidDemo](/viz/FullMap.png)](https://www.youtube.com/watch?v=4qBiBON2DwY)
+
+
 ### Drilling
 The following map shoes what type of crimes are occuring at a certain area/location
 
